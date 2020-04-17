@@ -4,7 +4,7 @@
 # Quick references
 
 -   **Manifest tool repository**:
-    [https://github.com/estesp/manifest-tool](https://github.com/bauguste/docker-docker/issues)
+    [https://github.com/estesp/manifest-tool](https://github.com/estesp/manifest-tool)
     
 -	**Where to file issues**:
     [https://github.com/bauguste/docker-docker/issues](https://github.com/bauguste/docker-docker/issues)
