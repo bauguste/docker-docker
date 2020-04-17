@@ -13,7 +13,10 @@
 ## Docker
 You can run a docker by using the Docker image directly, passing a docker command to `docker run`:
     
-    $docker run -it --rm --name docker --privileged bauguste/docker:19.03.8 docker -v
+    $ docker run -it --rm --name docker --privileged bauguste/docker:19.03.8 docker -v
+    
+    $ docker run -it --rm --name docker -v "$(pwd)":/usr/data --privileged bauguste/docker:19.03.8 docker build /usr/data
+
 
 ## Manifest tool
 You can run a manifest-tool by using the Docker image directly, passing a manifest-tool command to `docker run`:
